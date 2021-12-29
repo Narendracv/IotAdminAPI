@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="0bc3694d-44be-4bfc-be5b-4633743bc60c" name="Narendra@DESKTOP-KP0STM5 2021-12-29 16:42:10" runUser="DESKTOP-KP0STM5\Narendra" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-12-29T16:42:10.1580501+05:30" queuing="2021-12-29T16:42:10.1580504+05:30" start="2021-12-29T16:42:05.9388118+05:30" finish="2021-12-29T16:42:10.1688626+05:30" />
+  <TestSettings name="default" id="29056b46-8316-49e3-88b9-9ece6dc614cd">
+    <Deployment runDeploymentRoot="Narendra_DESKTOP-KP0STM5_2021-12-29_16_42_10" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="4f25e43a-affd-4488-8020-50086e3eb9f0" testId="24abe70f-de21-7736-11ca-9bd8cdc270c3" testName="Test_IoTAdminAPI.Services.UserControllerTest.GetUserByIdNotFound" computerName="DESKTOP-KP0STM5" duration="00:00:00.0015463" startTime="2021-12-29T16:42:09.9938268+05:30" endTime="2021-12-29T16:42:09.9938278+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f25e43a-affd-4488-8020-50086e3eb9f0" />
+    <UnitTestResult executionId="cab377bc-baa1-42e1-bbcc-0eda9ebcf1b2" testId="5566cd1c-b6b2-cd7d-5581-5ecb605158f6" testName="Test_IoTAdminAPI.Services.UserControllerTest.GetUserById" computerName="DESKTOP-KP0STM5" duration="00:00:00.2014556" startTime="2021-12-29T16:42:09.9873562+05:30" endTime="2021-12-29T16:42:09.9874973+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cab377bc-baa1-42e1-bbcc-0eda9ebcf1b2" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Test_IoTAdminAPI.Services.UserControllerTest.GetUserById" storage="c:\learning\referenceapplication\iotadmin-app\test-iotadminapi\bin\debug\net5.0\test-unit-iotadminapi.dll" id="5566cd1c-b6b2-cd7d-5581-5ecb605158f6">
+      <Execution id="cab377bc-baa1-42e1-bbcc-0eda9ebcf1b2" />
+      <TestMethod codeBase="C:\Learning\ReferenceApplication\IoTAdmin-App\Test-IoTAdminAPI\bin\Debug\net5.0\Test-Unit-IoTAdminAPI.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Test_IoTAdminAPI.Services.UserControllerTest" name="GetUserById" />
+    </UnitTest>
+    <UnitTest name="Test_IoTAdminAPI.Services.UserControllerTest.GetUserByIdNotFound" storage="c:\learning\referenceapplication\iotadmin-app\test-iotadminapi\bin\debug\net5.0\test-unit-iotadminapi.dll" id="24abe70f-de21-7736-11ca-9bd8cdc270c3">
+      <Execution id="4f25e43a-affd-4488-8020-50086e3eb9f0" />
+      <TestMethod codeBase="C:\Learning\ReferenceApplication\IoTAdmin-App\Test-IoTAdminAPI\bin\Debug\net5.0\Test-Unit-IoTAdminAPI.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Test_IoTAdminAPI.Services.UserControllerTest" name="GetUserByIdNotFound" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="24abe70f-de21-7736-11ca-9bd8cdc270c3" executionId="4f25e43a-affd-4488-8020-50086e3eb9f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5566cd1c-b6b2-cd7d-5581-5ecb605158f6" executionId="cab377bc-baa1-42e1-bbcc-0eda9ebcf1b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 5.0.12)&#xD;
+[xUnit.net 00:00:02.40]   Discovering: Test-Unit-IoTAdminAPI&#xD;
+[xUnit.net 00:00:02.45]   Discovered:  Test-Unit-IoTAdminAPI&#xD;
+[xUnit.net 00:00:02.45]   Starting:    Test-Unit-IoTAdminAPI&#xD;
+[xUnit.net 00:00:02.76]   Finished:    Test-Unit-IoTAdminAPI&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
